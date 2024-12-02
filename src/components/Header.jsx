@@ -1,7 +1,7 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 import Container from 'react-bootstrap/Container';
-import { Link } from 'react-router-dom';
 
 function Header() {
   const [isDisplayed, setIsDisplayed] = useState(false);
@@ -36,7 +36,7 @@ function Header() {
             <ul className={dropdownMenuClasses}>
               <li className={isDisplayed ? 'container' : null}>
                 <Link
-                  to="/category/tech"
+                  to="/category/technology"
                   className="p-3 text-uppercase text-light"
                 >
                   Tech
@@ -48,6 +48,14 @@ function Header() {
                   className="p-3 text-uppercase text-light"
                 >
                   Fotbal
+                </Link>
+              </li>
+              <li className={isDisplayed ? 'container' : null}>
+                <Link
+                  to="/category/fashion"
+                  className="p-3 text-uppercase text-light"
+                >
+                  Fashion
                 </Link>
               </li>
               <li className={isDisplayed ? 'container' : null}>

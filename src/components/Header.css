@@ -6,7 +6,7 @@
 
 .Header .nav img {
   width: auto;
-  height: 60px;
+  height: 45px;
 }
 
 .Header .menu-icon {
@@ -23,8 +23,8 @@
 }
 
 @media (max-width: 768px) {
-  .Header .nav img {
-    height: 45px;
+  .Header .nav a {
+    display: block;
   }
 
   .Header .custom-dropdown-menu {

@@ -1,9 +1,9 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-
 import Page404 from './pages/Page404';
 import Home from './pages/Home';
 import Favorites from './pages/Favorites';
-import Category from './pages/Category';
+import NewsCategory from './pages/NewsCategory';
+import NewsDetails from './pages/NewsDetails';
 
 const router = createBrowserRouter([
   {
@@ -17,14 +17,20 @@ const router = createBrowserRouter([
   },
   {
     path: '/category/:categoryId',
-    element: <Category />,
+    element: <NewsCategory />,
+  },
+  {
+    path: '/news/:newsId',
+    element: <NewsDetails />,
   },
 ]);
 
-export default function App() {
+function App() {
   return (
     <div className="App">
       <RouterProvider router={router} />
     </div>
   );
 }
+
+export default App;

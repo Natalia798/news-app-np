@@ -1,12 +1,13 @@
-import React from 'react';
-import Header from './Header';
-import Footer from './Footer';
+import React from "react";
+import Header from "./Header";
+import Footer from "./Footer";
+import "./Layout.css";
 
 function Layout(props) {
   return (
-    <div>
+    <div className="Layout">
       <Header />
-      {props.children}
+      <main>{props.children}</main>
       <Footer />
     </div>
   );
