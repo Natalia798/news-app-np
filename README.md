@@ -66,3 +66,12 @@ This project demonstrates the following key React concepts:
 ## 🤝 **Acknowledgments**
 
 This project was developed as part of my learning journey at **IT School**, and it helped me enhance my skills in React and web development.
+
+## 🌟 Explore More Projects  
+
+Here are some of my other projects:  
+
+- [Ovella](https://github.com/Natalia798/ovella) - Personalized meal planner based on menstrual cycle phases.  
+- [Weather Forecast App](https://github.com/Natalia798/weather-forecast-app) - Displays current weather and 5-day forecasts.  
+- [ITSchool Clone](https://github.com/Natalia798/website-clone-np) - A basic HTML/CSS clone of the ITSchool website.  
+
